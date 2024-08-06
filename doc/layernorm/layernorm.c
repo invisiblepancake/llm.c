@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-void layernorm_forward(float* out, float* mean, float* rstd,
+void minlayernorm_forward(float* out, float* mean, float* rstd,
                        float* inp, float* weight, float* bias,
                        int B, int T, int C) {
     float eps = 1e-5f;

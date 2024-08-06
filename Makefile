@@ -282,3 +282,4 @@ profile_gpt2cu: profile_gpt2.cu $(NVCC_CUDNN)
 clean:
 	$(REMOVE_FILES) $(TARGETS)
 	$(REMOVE_BUILD_OBJECT_FILES)
+

@@ -858,3 +858,4 @@ if __name__ == "__main__":
     # clean up nice
     if ddp:
         destroy_process_group()
+

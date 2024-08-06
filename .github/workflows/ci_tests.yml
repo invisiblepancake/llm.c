@@ -1,4 +1,4 @@
-name: Unit, Static and other Tests
+ name: Unit, Static and other Tests
 
 on:
   create:
